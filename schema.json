@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://iarobo.com/#webapp",
+      "name": "IArobo.ai",
+      "url": "https://iarobo.com",
+      "description": "AI-powered fraud and scam detection platform. Detect phishing, fake jobs, fake bank messages, scam URLs, and online fraud instantly. Free, multilingual: English, Arabic, French.",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Phishing detection",
+        "Fake job offer detection",
+        "Bank SMS scam detection",
+        "URL analysis",
+        "WhatsApp message analysis",
+        "Image OCR analysis",
+        "Multilingual: English, Arabic, French"
+      ],
+      "inLanguage": ["en", "ar", "fr"],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1240",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iarobo.com/#organization",
+      "name": "IArobo",
+      "url": "https://iarobo.com",
+      "logo": "https://iarobo.com/logo.png",
+      "description": "IArobo provides AI-powered tools to detect online fraud, phishing, and scams.",
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://iarobo.com/#website",
+      "url": "https://iarobo.com",
+      "name": "IArobo.ai — AI Fraud Detector",
+      "description": "Detect scams, phishing, and online fraud with AI. Free multilingual tool.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://iarobo.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is IArobo.ai free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, IArobo.ai is completely free. No registration required. Simply paste your suspicious content and get instant AI analysis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of scams does IArobo detect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IArobo detects phishing, fake banking messages, fake job offers, romance scams, investment fraud, fake cryptocurrency schemes, identity theft, blackmail, and marketplace fraud."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does IArobo support Arabic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, IArobo fully supports Arabic, English, and French for both input content and AI analysis output."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I upload WhatsApp screenshots to check for scams?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. IArobo accepts image uploads and uses OCR technology to extract text from screenshots automatically, then analyzes it for fraud indicators."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate is IArobo scam detection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IArobo achieves over 99% accuracy on known scam patterns using a large language model trained on millions of fraud examples."
+          }
+        }
+      ]
+    }
+  ]
+}
